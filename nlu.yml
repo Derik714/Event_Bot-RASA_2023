@@ -312,7 +312,6 @@ nlu:
     - What are the procedures for ensuring compliance with the guidelines and regulations in Match and Engage?
 - intent: Match_n_engage_Rules
   examples: |
-    - What's the problem statement for the Match and Engage event in RASA?
     - Explain the main challenge in the Match and Engage competition using RASA.
     - How do participants address the primary problem statement in RASA for Match and Engage?
     - Provide insights into the guidelines for RASA in the Match and Engage event.
@@ -332,6 +331,186 @@ nlu:
     - Tell me about the event's RASA rule enforcement and penalties for Match and Engage.
     - Describe the official RASA event's code of conduct and fairness principles for Match and Engage.
     - Provide information on the event's RASA protocols and dispute resolution process for Match and Engage.
+- intent: Match_n_engage_Coordis
+  examples: |
+    - Who are the coordinators of Match and engage event?
+    - Who is responsible for organizing the Match and Engage event?
+    - Tell me the names of the coordinators for Match and Engage.
+    - Who are the organizers of the Match and Engage competition?
+    - Can you provide information about the people in charge of Match and Engage?
+    - Who should I contact regarding Match and Engage event coordination?
+    - Give me details about the event coordinators for Match and Engage.
+    - I'd like to know the team behind organizing Match and Engage.
+    - Who is managing the Match and Engage event?
+    - Tell me about the team running the Match and Engage competition.
+    - Who's in charge of organizing Match and Engage?
+    - Provide me with details on the event coordinators for Match and Engage.
+    - I want to contact the coordinators of the Match and Engage event.
+    - Can you give me the names of the coordinators for Match and Engage?
+    - I need to reach out to the Match and Engage organizers.
+    - Who are the people behind Match and Engage's coordination?
+    - Share information about the individuals responsible for Match and Engage.
+    - Tell me about the team in charge of the Match and Engage competition.
+    - I'd like to connect with the coordinators of Match and Engage.
+    - Who should I contact regarding Match and Engage event coordination?
+    - Who are the event coordinators for Match and Engage?
+    - Can you provide details about the Match and Engage event's team?
+    - I'm interested in knowing the names of the coordinators for Match and Engage.
+    - Who's responsible for the organization of Match and Engage?
+    - Give me the contact details for Match and Engage's coordinators.
+    - Tell me about the Match and Engage event's management team.
+    - Who leads the coordination of Match and Engage?
+    - Share the names of the people managing Match and Engage.
+    - I need information about the event coordinators for Match and Engage.
+    - Who is overseeing the coordination of Match and Engage?
+    - Tell me about the individuals handling Match and Engage.
+    - Who can I contact for questions about the Match and Engage competition?
+    - I want to know who's organizing the Match and Engage event.
+    - Can you provide the names of the coordinators for Match and Engage?
+- intent: Timing_Place
+  examples: |
+    - Where and when would the Bumblesee event be conducted?
+    - Where and when would the Match and Engage event be conducted?
+    - Where will BotRush event be held?
+    - When should I go to MP Hall for Bumblesee event?
+    - When and where is the Bumblesee event scheduled?
+    - Where and when can I find the Bumblesee event?
+    - Tell me about the venue and schedule for the Bumblesee event.
+    - What's the location and time for the Bumblesee event?
+    - Where and when is the Bumblesee competition taking place?
+    - I need information on the Bumblesee event's location and time.
+    - Where and when should I go for the Bumblesee event?
+    - Could you share the details of the Bumblesee event's venue and timing?
+    - When is the Bumblesee event happening, and where is it held?
+    - Please let me know the location and schedule of the Bumblesee event.
+    - Where can I attend the Bumblesee event, and when is it scheduled?
+    - What's the location and timing for the Bumblesee competition?
+    - Give me information about the Bumblesee event's venue and time.
+    - When and where would the Bumblesee event take place?
+    - What's the schedule and location for the Bumblesee competition?
+    - Could you tell me where and when the Bumblesee event is?
+    - Where and when is the Bumblesee event being conducted?
+    - I'm looking for details about the Bumblesee event's location and timing.
+    - When and where should I be for the Bumblesee event?
+    - Where is the Match and Engage event happening?
+    - When and where would the Match and Engage event be conducted?
+    - Where will BotRush event be held?
+    - When should I go to MP Hall for Bumblesee event?
+    - What's the venue for the Match and Engage competition?
+    - Tell me about the location and timing of the BotRush event.
+    - Where can I find the Match and Engage event?
+    - Provide information about the Bumblesee event's location and schedule.
+    - I need to know where the Match and Engage event is held.
+    - Where should I go for the BotRush event?
+    - Tell me the place for the Match and Engage competition.
+    - What's the event location for the BotRush event?
+    - Where is the Bumblesee event taking place?
+    - Share the venue details for the Match and Engage event.
+    - I want to know the location of the BotRush event.
+    - Where is the Match and Engage competition held?
+    - What's the site of the Bumblesee event?
+    - Where can I attend the Match and Engage event?
+    - Please provide the location and timing for the BotRush competition.
+    - I'm looking for the venue and schedule of the Match and Engage event
+    - When and where is the Meep Mop event happening?
+    - Where and when would the Decept of Home competition take place?
+    - Tell me the venue and schedule for the Meep Mop event.
+    - What's the location and time for the Decept of Home competition?
+    - Where and when is the Meep Mop competition being conducted?
+    - I need information on the Decept of Home event's location and time.
+    - When should I be at the venue for the Meep Mop event?
+    - Share details about the Decept of Home competition's location and schedule.
+    - Could you provide me with the location and timing of the Meep Mop event?
+    - Where can I attend the Decept of Home competition, and when is it scheduled?
+    - What's the venue and timing for the Meep Mop competition?
+    - Give me information about the Decept of Home event's venue and time.
+    - When and where would the Decept of Home competition take place?
+    - Could you tell me where and when the Meep Mop event is?
+    - Where and when is the Meep Mop event conducted?
+    - I'm looking for details about the Decept of Home event's location and timing.
+    - When and where should I be for the Meep Mop event?
+    - Where is the Match and Engage event happening?
+    - When and where would the Match and Engage event be conducted?
+    - Where will the BotRush event be held?
+    - When should I go to MP Hall for the Bumblesee event?
+    - What's the venue for the Meep Mop competition?
+    - Tell me about the location and timing of the Decept of Home event.
+    - Where can I find the Match and Engage event?
+    - Provide information about the venue and schedule of the BotRush event.
+    - I need to know where the Bumblesee event is held.
+    - Where should I go for the Meep Mop competition?
+    - Tell me the place for the Decept of Home event.
+    - What's the event location for the BotRush event?
+    - Where is the Bumblesee event taking place?
+    - Share the venue details for the Match and Engage event.
+    - I want to know the location of the Decept of Home event.
+    - Where is the Meep Mop competition held?
+    - What's the site of the BotRush event?
+    - Where can I attend the Decept of Home event?
+    - Please provide the location and timing for the Bumblesee competition.
+    - I'm looking for the venue and schedule of the Match and Engage event.
+    - When and where is the Meep Mop event happening?
+    - Where and when would the Home Automation competition take place?
+    - Tell me the venue and schedule for the Meep Mop event.
+    - What's the location and time for the Home Automation competition?
+    - Where and when is the Meep Mop competition being conducted?
+    - I need information on the Home Automation event's location and time.
+    - When should I be at the venue for the Meep Mop event?
+    - Share details about the Home Automation competition's location and schedule.
+    - Could you provide me with the location and timing of the Meep Mop event?
+    - Where can I attend the Home Automation competition, and when is it scheduled?
+    - What's the venue and timing for the Meep Mop competition?
+    - Give me information about the Home Automation event's venue and time.
+    - When and where would the Home Automation competition take place?
+    - What's the schedule and location for the Meep Mop event?
+    - Could you tell me where and when the Home Automation event is?
+    - Where and when is the Meep Mop event conducted?
+    - I'm looking for details about the Home Automation event's location and timing.
+    - When and where should I be for the Meep Mop event?
+- intent: More_info
+  examples: |
+    - Can you give me more info about the event?
+    - Where can I find more info about the Bumblesee event?
+    - Can you provide me with more details about the event?
+    - I'd like to learn more about this event.
+    - Tell me about the event in more detail.
+    - What additional information do you have about the event?
+    - Share further details about the event.
+    - Could you give me more info on this event?
+    - I want to know additional details about the event.
+    - Provide me with in-depth information about the event.
+    - Please tell me more about the event.
+    - What else can you tell me about the event?
+    - Where can I find more information about the Bumblesee event?
+    - Tell me where I can get additional details about this event.
+    - How can I access more info about the event?
+    - Please guide me on where to find event information.
+    - Where should I look for more event details?
+    - What's the source for additional event info?
+    - How can I get more insights about this event?
+    - I need to know where to find event-related information.
+    - Where can I locate additional event details?
+    - Help me find more info about the Bumblesee event.
+    - Can you give me more information about Decept of Home?
+    - Tell me about the Decept of Home event.
+    - What's the Decept of Home competition all about?
+    - I'd like to know more about the Decept of Home event.
+    - Please provide details about Decept of Home.
+    - Explain the Decept of Home event to me.
+    - What's the main concept behind Decept of Home?
+    - Share additional info on Decept of Home.
+    - Can you provide insights into Decept of Home?
+    - I want to learn more about the Decept of Home event.
+    - Where can I find more details about Match and Engage?
+    - Tell me about the Match and Engage competition.
+    - What's the Match and Engage event all about?
+    - Provide information on the Match and Engage competition.
+    - Explain the purpose of Match and Engage.
+    - I'd like to know more about the Match and Engage event.
+    - Please share additional info on Match and Engage.
+    - What's the key concept behind Match and Engage?
+    - Can you give me insights into Match and Engage?
+    - I want to learn more about the Match and Engage competition.
 
 - synonym: Match_n_engage_PS
   examples: |
