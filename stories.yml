@@ -67,6 +67,21 @@ stories:
   - intent: Match_n_engage_Rules
   - action: utter_MNGE_Rules
   - action: restart_convo
+- story: MNGE COORDI
+  steps:
+  - intent: Match_n_engage_Coordis
+  - action: utter_MNGE_Coordis
+  - action: restart_convo
+- story: Time Place
+  steps: 
+  - intent: Timing_Place
+  - action: utter_Location_time
+  - action: restart_convo
+- story: More_info
+  steps:
+  - intent: More_info
+  - action: utter_more_info
+  - action: restart_convo
 - story: bumblesee_coordi
   steps:
   - intent: Coordinator_BBSEE
