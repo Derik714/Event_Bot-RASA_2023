@@ -1,0 +1,75 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - action: restart_convo
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  - action: restart_convo
+- story: bumblesee_full_descip
+  steps:
+  - intent: basic_details_bbsee
+  - action: say_bbsee_details
+  - action: restart_convo
+- story: bumblesee_desc_map
+  steps:
+  - intent: user_asks_arena_desc
+  - action: show_arena_map
+  - action: restart_convo
+- story: specific_detail
+  steps:
+  - intent: specific_details_about_BBSEE
+    entities:
+    - specific_details_about_BBSEE: "AllRules"
+  - action: decide_details
+  - action: restart_convo
+- story: All_rules_BBSE
+  steps:
+  - intent: Allrules_BBSE
+  - action: utter_allrules_bbse
+  - action: restart_convo
+- story: MNGE PS
+  steps:
+  - intent: Match_n_engage_PS
+  - action: utter_MNGE_PS
+  - action: restart_convo
+- story: MNGE REG
+  steps:
+  - intent: Match_n_engage_Reg
+  - action: utter_MNGE_REG
+  - action: restart_convo
+- story: MNGE Rules
+  steps:
+  - intent: Match_n_engage_Rules
+  - action: utter_MNGE_Rules
+  - action: restart_convo
+- story: bumblesee_coordi
+  steps:
+  - intent: Coordinator_BBSEE
+  - action: utter_BBSEE_Coordinator
+  - action: restart_convo
+
