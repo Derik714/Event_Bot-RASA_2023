@@ -1,0 +1,111 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - know_upcoming_events
+  - particular_month_event
+  - all_events_spcfdate
+  - all_events
+  - register
+  - get_event_name
+  - basic_details_bbsee
+  - user_asks_arena_desc
+  - specific_details_about_BBSEE
+  - Coordinator_BBSEE
+  - v_on
+  - v_off
+  - Allrules_BBSE
+  - Match_n_engage_PS
+  - Match_n_engage_Reg
+  - Match_n_engage_Rules
+actions:
+  - restart_convo
+  - action_givegformlink
+  - say_bbsee_details
+  - show_arena_map
+  - decide_details
+  - voice_mode_on
+  - voice_mode_off
+  - say_fallback
+entities:
+  - month_name
+  - eventname
+  - boolMap
+  - SpecificDetail_BBSE
+responses:
+ utter_greet:
+  - text: "Hey! How are you today? Let me know if you need some help!"
+ utter_MNGE_Rules:
+  - text: |
+      Bot Review & Preliminary Round:
+      The event coordinators will review the projects to assess progress. The Arduino code should be completed.
+
+      Final Round:
+      Bots selected for the final round must have both Arduino and ESP01 code completed. The bot should be fully operable through a cell phone app.
+
+      Judging Criteria:
+      a. Compact Code [+200 points]
+      b. Smooth Turns (Relative) [+300 points]
+      c. Time Factor: Max [600 points], allotted relative to the performance of all participants.
+ utter_MNGE_REG:
+ - text: |
+    1.This is a team event with a maximum of 4 members and a minimum of 2. Team members can be from any branch.
+    2.You are required to build a working robot for any one problem before the deadline. You can contact seniors for any discrepancies or doubts in the problem statement.
+    3.You will need to submit an abstract before submitting a solution, in which you will describe your approach to the problem and list all the hardware used.
+    4.The decision of the judges will be final and binding. Rules and Regulations.
+    5.This is a cumulative scoring event, so you need to perform well in all rounds to win.
+    6.ANY FORM OF CODE PLAGIARISM WILL NOT BE TOLERATED. If any part of the project is found to be copied, the team will be disqualified immediately.
+    7.Do not assume anything in the problem statement by yourself. Contact us to resolve any discrepancies.
+ utter_MNGE_PS:
+ - text: |
+    The war between the Autobots and the Decepticons has now reached its battlefield. The humans of Earth have decided to protect their homeland by taking the side of the Autobots. We have just received very sensitive information that the Decepticons can detect any Autobot technology in their vicinity but cannot detect human technology in the same way. Humans and Autobots want to use this information to their advantage and, as a result, win the war. However, they lack expertise in robotics. As a result, they have approached the Robotics Club at MNNIT to help them build special-purpose robots for specific tasks. Can you and your team help the humans and the Autobots win this war and reclaim our home? It's time to find out!
+ utter_allrules_bbse:
+  - text: |
+      1.Your bot must not damage the arena in any way. Doing so will result in immediate disqualification.
+      2.There will be four checkpoints A, B, C, D.
+      3.If your bot misses a turn according to the LSRB algorithm or goes out of the path, your bot will be restarted from the last reached checkpoint.
+      4.During the wall following, if your bot hits the wall or goes out of the dashed line, it has to restart from point D.
+      5.There will be only 2 restarts allowed during the entire run.
+      6.There will be a provision to skip a checkpoint only once if your bot goes out of the path at least once. No points will be awarded for that checkpoint.
+ utter_BBSEE_Coordinator:
+    - text: |
+        **BumbleSee Event Coordinators:**
+
+        1. **Aditya Jain**
+           - Contact: 9335780943
+           - Email: aditya.20203010@mnnit.ac.in
+
+        2. **Shashank Singh**
+           - Contact: 9351648062
+           - Email: shashanksinghranu@gmail.com
+
+        3. **Prakhar Agarwal**
+           - Contact: 8004730219
+           - Email: prakhar.20200035@mnnit.ac.in
+
+        4. **Gautam Kumar**
+           - Contact: 8987381926
+           - Email: gautam.20203059@mnnit.ac.in
+ utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+ utter_did_that_help:
+  - text: "Did that help you?"
+
+ utter_happy:
+  - text: "Great, carry on!"
+
+ utter_goodbye:
+  - text: "Bye"
+
+ utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
