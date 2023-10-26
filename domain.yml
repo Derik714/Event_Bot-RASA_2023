@@ -23,6 +23,9 @@ intents:
   - Match_n_engage_PS
   - Match_n_engage_Reg
   - Match_n_engage_Rules
+  - Match_n_engage_Coordis
+  - Timing_Place
+  - More_info
 actions:
   - restart_convo
   - action_givegformlink
@@ -38,6 +41,27 @@ entities:
   - boolMap
   - SpecificDetail_BBSE
 responses:
+ utter_more_info:
+ - text: For more information, you can ask me specific questions about the event or contact the event coordinators.
+ utter_Location_time:
+ - text: |
+      It will take place in MP HALL, from 6PM to 9PM, contact Coordinators for exact timings.
+ utter_MNGE_Coordis:
+ - text: |
+      **MATCH AND ENGAGE COORDINATORS**
+         *EVENT COORDINATOR*
+         1.Shashank Singh
+         9351648062
+         shashanksinghranu@gmail.com
+         2.Shreya Gupta
+         shreya.20208119@mnnit.ac.in
+         *DEPARTMENT COORDINATOR*
+         1.Prakhar Agarwal
+         8004730219
+         prakhar.20200035@mnnit.ac.in
+         2.Gautam Kumar
+         8987381926
+         gautam.20203059@mnnit.ac.in
  utter_greet:
   - text: "Hey! How are you today? Let me know if you need some help!"
  utter_MNGE_Rules:
@@ -76,19 +100,19 @@ responses:
     - text: |
         **BumbleSee Event Coordinators:**
 
-        1. **Aditya Jain**
+        1. Aditya Jain
            - Contact: 9335780943
            - Email: aditya.20203010@mnnit.ac.in
 
-        2. **Shashank Singh**
+        2. Shashank Singh
            - Contact: 9351648062
            - Email: shashanksinghranu@gmail.com
 
-        3. **Prakhar Agarwal**
+        3. Prakhar Agarwal
            - Contact: 8004730219
            - Email: prakhar.20200035@mnnit.ac.in
 
-        4. **Gautam Kumar**
+        4. Gautam Kumar
            - Contact: 8987381926
            - Email: gautam.20203059@mnnit.ac.in
  utter_cheer_up:
