@@ -537,4 +537,118 @@ nlu:
     - 6
     - Marking
     - Gameplay
+-intent: meeptimeline
+ examples: |
+   - what is the deadline of meemmop?
+   - What is the form realease date of meep mop?
+   - What is the submission date of meem mop form?
+   - what is the last date to register for meep mop?
+   - what is the date for project related guideline session?
+   - when will  project guidline session be kept?
+   - when will the project begin?
+   - when will the project start?
+   - start date for the project?
+   - what is the complete timeline for meepmop?
+   - what is the  time table for meep mop?
+   - what is the time map of meepmop?
+-intent: meepmop_ins
+ examples: |
+   - what are the rules of meepmop?
+   - what are the instructions for meepmop?
+   - what wiil be the intructions to be followed for meepmop?
+   - need more details about operating Meep Mop.
+   - Provide step-by-step guidance for Meep Mop.
+   - Walk me through the process of using Meep Mop.
+   - Can you guide me on how to work with Meep Mop?
+   - Explain the functionality of Meep Mop.
+   - What are the key features of Meep Mop?
+   - Give me a brief overview of how Meep Mop functions.
+   - MeepMop, can you tell me what to do, please?
+   - How should I operate Meep Mop?
+   - Give me instructions for Meep Mop.
+   - What are the steps to use Meep Mop?
+   - I need guidance on how to work with Meep Mop.
+   - Could you provide me with directions for using Meep Mop?
+   - What's the user manual for Meep Mop?
+
+- intent: meepmop_basicthings
+  examples: |
+  - what are the basic details of meep mop?
+  - what are the minimun hardware requirements of meepmop?
+  - what is the theme of meep mop?
+  - on what theme meep mop is based?
+  - what are the basic requirements of meepm op?
+  - what are the basic features of meepmop?
+  - what hardware is required for meep mop?
+  - which hardware must be a part of meep mop?
+  - give a brief overview of meep mop?
+  - provide the basic overview of meepmop?
+  - basic overview meepmop?
+  - basic guidline meepmop?
+  - basic structure of meepmop?
+  - meepmop basic structure?
+-intent: doh_rules
+ examples: |
+  - what are the rules for decept of home?
+  - what are the instructions for decept of home?
+   - what wiil be the intructions to be followed for decept of home?
+   - need more details about operating decept of home.
+   - Provide step-by-step guidance for decept of home
+   - Walk me through the process of using decept of home.
+   - Can you guide me on how to work with decept of home?
+   - Explain the functionality of decept of home.
+   - What are the key features of decept of home?
+   - Give me a brief overview of how decept of home functions.
+   - Decept of home, can you tell me what to do, please?
+   - How should I operate decept of home?
+   - Give me instructions for decept of home.
+   - What are the steps to use decept of home?
+   - I need guidance on how to work with deept of home.
+   - Could you provide me with directions for using decept of home?
+   - What's the user manual for decept of home?
+- intent : doh_bot
+  examples: |
+   - what are the bot specifications of decept of home
+   - what the specifications of bot to be made in decept event?
+   - what hardware can be used in decept event?
+   - what hardware is allowed in decept event?
+   - what hardware can be employed in decept event?
+   - is there any speceification for the hardware in decept event?
+   - what hardware  specification need to be followed for decept event?
+   - what hardware is must to be used in decept event?
+   - what hardware parts needs to be necessarily used in decept event?
+   - what hardware must be used in decept event?
+   - waht are those hardware parts whithout which bot is not allowed?
+   - hardware requirements of decept event?
+- intent : doh_tips
+  examples: | 
+  - what are the tips for decept event?
+  - give me some tips for decept of home?
+  - is ther any tips for decept ?
+  - what are the helping statements for decept?
+  - tips of decept
+  - decept tips
+  - what are the useful instruction of decept 
+  - what are some of the useful instructions available in decept?
+  - give me some useful instruction for decept?
+  - is there any helping instruction available for decept event?
+  - what are the helping statements for decept of home event
+- intent : doh_prblmstmnt
+  examples: |
+  - what are the problem statements of decept event?
+  - provide me with the problem statements for decept event?
+  - is there any problem statement available for decept event?
+  - what the the basic features for decept event?
+  - basic implementations of decept event?
+  - what are the basic implementations of decept event?
+  - what are the necessary features for decept event?
+  - is there some features which must be present in bot of decept event?
+  - what are some of the most important features to be included in the bot of decept event?
+  - give me the most important features to be implemented in the decept event?
+  
+
+
+
+  
+
 
