@@ -26,6 +26,13 @@ intents:
   - Match_n_engage_Coordis
   - Timing_Place
   - More_info
+  - meeptimeline
+  - meepmop_ins
+  - meepmop_basicthings
+  - doh_rules
+  - doh_bot
+  - doh_tips
+  - doh_prblmstmnt
 actions:
   - restart_convo
   - action_givegformlink
@@ -133,3 +140,83 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  utter_meeptimeline:
+  - text: |
+      "timeline": 
+    
+      "date": "23 march",
+      "events": ["Class 1", "Form release"]
+    
+    
+      "date": "25 march",
+      "events": ["Class 2", "Form submission deadline"]
+    
+      "date": "2 april",
+      "events": ["Project related and Doubt class"]
+    
+      "date": "15 april",
+      "events": ["Let the game begin!"]
+ utter_meepins:
+  - text: |
+      1.The task performed by your bot must be automated, which means that after you start your bot once, you cannot make any changes in it,
+       and it should complete the specified task on its own.
+      2.Your bot must use a minimum of 2 sensors (motor as well), Arduino board, and should work on regular power supply.
+ utter_meepbasic:
+  - text: |
+      eventTitle: "Meep Mop",
+      openTo : "Open to all",
+      platform: "Arduino",
+      requiredComponents: {
+      sensors: "Minimum 2 sensors",
+      board: "Arduino board",
+      powerSupply: "Regular power supply",
+      suggestedBotType: "Prefer creating a moving bot rather than a bot with no wheels"}
+utter_dohtips:
+  - text: |
+     1.Focus on making the bot durably and your code well commented. Your bot should not stop working on slightly bad handling.
+     2.The main motive of Bot-Rush 2k23 is to help you develop an interest in robotics and introduce you to your first hardware project.
+     3.The Basic/Advanced features are to guide you on your theme. You are free to add more features from your side which would enhance the quality of the bot. You would be judged on your creativity,
+      the functionality of your bot. Any use of extra sensors/hardware should be informed beforehand.
+     4.Participate in the team as it will make you a team player and will be helpful in the future.
+     5.Note for first-time developers/beginners: Your focus should be to complete the bot in the given time.
+utter_dohprblm:
+  - text : |     
+       1.Automatic Door and a Secure Locking System-Smart locks leverage IoT-enabled sensors to operate keyless entry devices that
+        allow users to access doors remotely.
+          1.1 Opening and Closing of Lock system must be done by either mobile application or by some web based system. [+250 points]
+          1.2 Password based protection should be implemented, Password can be entered using mobile, or by using keyboard. [+200 points]
+          1.3 A provision of alarm should be there for unauthorized access. [+50 points]
+          1.4 Any other advanced security ideas in addition to above will also be considered with provision of extra points. [Bonus points depends on ideas]
+       2.Visitors Counter-Visitors counter at the home entrance to store and display the data.
+        2.1 Simple one-way visitor counter at the home entrance. [+150 points]
+        2.2 Bidirectional visitor counter. Monitor the total number of visitors entering, existing and current visitors. [+250 points]
+        2.3 Display of real-time data in mobile application. [+100 points]
+       3.Smart Home-Various tasks related to smart switching, temperature and humidity monitoring, and gas level monitoring.
+        3.1 Controlling Light bulb switching and brightness control using wireless communication through Mobile or any other Remote. [+100 Points] 
+        3.2 Controlling Light bulb switching using voice Commands (Google Assistant.) [+100 Points]
+        3.3 Display all the parameters on serial monitor (on PC). [+100 Points]
+        3.4 Upload and display the parameter to the cloud (Thingspeak.com).
+        3.5 Measure the quantity of gas in percentage and send it over the internet using the Thingspeak server. [+100 Points] 
+ utter_dohbot:
+   - text: |
+       1.IR Sensor - IR Infrared Sensor Module
+       2.16x2 LCD Module with I2C Adapter - Display
+       3.Jumper Wires - Jumper Cables Breadboard friendly
+       4.Breadboard - Breadboard
+       5.SG90 Micro-servo Motor - ESP8266 12E Board
+       6.Basic white led-5mm DIP Led white
+       7.DHT22-digital temperature and humidity sensor module
+       8.MQ4-Digital methane sensor
+ utter_dohrules:
+   - text: |
+      1.This is a team event with a maximum of 4 members and a minimum of 2. Team members can be from any branch.
+      2.You have to build a working bot for any one problem before the deadline. You can 
+      contact seniors for any discrepancies or doubts in the problem statement.
+      3.You’ll be required to submit an abstract before submitting a solution, in which you will 
+      describe the approach to the problem and list all the hardware used.
+      4.The decision of the judges will be final and binding. Rules and Regulations
+      5.This is a cumulative score event. So you need to perform well in all rounds to win.
+      6.ANY FORM OF CODE PLAGIARISM WILL NOT BE TOLERATED. If any part of the project is found copied the team will be disqualified immediately.
+      7.Do not assume anything in the problem statement by yourself. Contact us to resolve any discrepancies.
+
+          
