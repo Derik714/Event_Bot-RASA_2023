@@ -87,4 +87,39 @@ stories:
   - intent: Coordinator_BBSEE
   - action: utter_BBSEE_Coordinator
   - action: restart_convo
-
+- story: meeptime
+  steps:
+  - intent: meeptimeline
+  - action: utter_meeptimeline
+  - action: restart_convo
+- story: meeptime
+  steps:
+  - intent: meepmop_ins
+  - action: utter_meepins
+  - action: restart_convo
+- story: meepbasic
+  steps:
+  - intent: meepmop_basicthings
+  - action: utter_meepbasic
+  - action: restart_convo
+- story: dohrules
+  steps:
+  - intent: doh_rules
+  - action: utter_dohrules
+  - action: restart_convo
+- story: dohbot
+  steps:
+  - intent: doh_bot 
+  - action:  utter_dohbot
+  - action: restart_convo
+- story: dottips
+  steps:
+  - intent: doh_tips
+  - action: utter_dohtips
+  - action: restart_convo
+- story: dohprblms
+  steps:
+  - intent: doh_prblmstmnt
+  - action: utter_dohprblm
+  - action: restart_convo
+  
